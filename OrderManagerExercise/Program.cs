@@ -1,7 +1,5 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using OrderManagerExercise;
 
-using OrderManagerExercise;
-
-List<string> items = ["Pizza", "Pasta"];
-var total = new OrderManager().CalculateTotalPrice(items, "DISCOUNT10");
+List<string> items = ["pizza", "Pasta"];
+var total = new OrderManager(new MenuItemsPriceCalculator(), new DiscountManager()).CalculateTotalPrice(items, "Discount10");
 Console.WriteLine($"Total price: {total}");
