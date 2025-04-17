@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagerExercise", "OrderManagerExercise\OrderManagerExercise.csproj", "{787A8DB9-ED56-4D0D-9272-683D9BEE0BBF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderManagerExercise.Tests", "OrderManagerExercise.Tests\OrderManagerExercise.Tests.csproj", "{6DFFA938-567B-4D09-9964-C6E14980D6ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{787A8DB9-ED56-4D0D-9272-683D9BEE0BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{787A8DB9-ED56-4D0D-9272-683D9BEE0BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{787A8DB9-ED56-4D0D-9272-683D9BEE0BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DFFA938-567B-4D09-9964-C6E14980D6ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DFFA938-567B-4D09-9964-C6E14980D6ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DFFA938-567B-4D09-9964-C6E14980D6ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DFFA938-567B-4D09-9964-C6E14980D6ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
