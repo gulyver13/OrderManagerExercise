@@ -1,14 +1,11 @@
 using System;
 using System.Linq;
-using JetBrains.Annotations;
 using Xunit;
 
 namespace OrderManagerExercise.Tests;
 
-[TestSubject(typeof(MenuItemsPriceCalculator))]
 public class MenuItemsPriceCalculatorTest
 {
-
     [Theory]
     [InlineData(new [] {"Pizza", "pasta"}, 14.5)]
     [InlineData(new [] {"PIZZA", "pasta", "SaLAd"}, 18.5)]

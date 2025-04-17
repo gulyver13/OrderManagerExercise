@@ -1,10 +1,7 @@
-using JetBrains.Annotations;
-using OrderManagerExercise;
 using Xunit;
 
 namespace OrderManagerExercise.Tests;
 
-[TestSubject(typeof(DiscountManager))]
 public class DiscountManagerTest
 {
 
