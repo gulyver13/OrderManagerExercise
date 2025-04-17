@@ -4,7 +4,6 @@ namespace OrderManagerExercise.Tests;
 
 public class DiscountManagerTest
 {
-
     [Theory]
     [InlineData("Discount10", 90.0)]
     [InlineData("DiScOUNt10", 90.0)]

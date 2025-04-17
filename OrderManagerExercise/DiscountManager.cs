@@ -2,7 +2,7 @@ namespace OrderManagerExercise;
 
 public class DiscountManager : IDiscountManager
 {
-    private readonly IDictionary<string, double> _promoCodes = new Dictionary<string, double>(StringComparer.OrdinalIgnoreCase)
+    private readonly Dictionary<string, double> _promoCodes = new (StringComparer.OrdinalIgnoreCase)
     {
         ["DISCOUNT10"] = 0.9,
         ["DISCOUNT20"] = 0.8
